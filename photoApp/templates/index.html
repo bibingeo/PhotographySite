@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block abc %}
+<div class="container">
+    <div id="branding">
+    </div>
+    <nav>
+        <ul>
+        </ul>
+    </nav>
+</div>
+<div id="carousel-example" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example" data-slide-to="1"></li>
+        <li data-target="#carousel-example" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src={% static "images/main.jpg" %}>
+            <div class="carousel-caption">
+                <h3>Photography</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="item">
+            <img src={% static "2.jpg" %}>
+            <div class="carousel-caption">
+                <h3>Photography</h3>
+                <p></p>
+            </div>
+        </div>
+
+    </div>
+    <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+<!--https://codepen.io/cardeo/pen/ILvfG -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <h2>
+                <center><strong>When seeing is believing,count on Bibin Geo Photography.</strong></center>
+            </h2>
+            <hr>
+            <h4>
+                <center>We love capturing the raw connection between people, but we also love creating stunning and emotional portraits that you'll want to stare at every single day.
+                </center>
+            </h4>
+            <hr>
+
+        </div>
+
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+
+            <img src={% static "images/index-photo.jpg" %} class="img-responsive">
+        </div>
+        <div class="col-md-5">
+
+            <div class="photo-index">PHOTOGRAPHY</div>
+
+            <p class="photo-content">
+
+                 My photography focuses on joyful, editorial, stylish images full of beautiful and natural emotion.
+            </p>
+        </div>
+    </div>
+
+     <div class="row">
+
+        <div class="quote">
+           <blockquote>“Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.”</blockquote>
+        </div>
+
+        </div>
+
+
+</div>
+
+
+{% endblock %}

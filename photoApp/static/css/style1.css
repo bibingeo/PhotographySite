@@ -1,0 +1,223 @@
+body
+{
+	padding: 0%;
+	margin: 0%;
+	background-color: #FFF;
+}
+
+.photoname
+{
+    font-family : "Playfair Display"
+    color : black
+}
+.photo-index
+{
+	color:green;
+	font-size : 28px;
+	font-weight :200;
+	letter-spacing: 0.3em;
+	text-align: center;
+	padding-bottom : 30px;
+}
+.photo-content
+{
+	color : black;
+	font-size : 18px;
+	font-weight :200;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding-top : 60px;
+
+}
+
+.quote
+{
+	padding-top :25px;
+	text-align: center;
+	color: #474747;
+}
+blockquote::before {
+	content: open-quote;
+  }
+
+
+  blockquote::after {
+	content: close-quote;
+  }
+
+ 
+header
+{
+	background-color: white;
+	color:black;
+	padding-top: 10px;
+	min-height: 70px;;
+}
+header a
+{
+
+	color: black;
+	text-decoration: none;
+	font-size: 14px;;
+}
+header li
+{
+
+	display: inline;
+	padding: 0 10px 0 10px;
+
+}
+header #branding {
+	float:left;
+}
+header #branding h1{
+    margin:0;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+header nav
+{
+	float: right;
+	margin-top:30px;
+    padding-right: 40px;
+}
+header nav li a{
+    font-size: 17px;
+   font-weight: 300;
+   color : black;
+}
+
+p.photo
+{
+    color:grey;
+    font-size:18px;
+     letter-spacing: 2px;
+     text-align:justify;
+}
+p.photo1
+{
+    font-size:16x;
+     letter-spacing: 1.5px;
+     text-align:justify;
+}
+.photoabout
+{
+    color:black;
+    font-family : "Playfair Display";
+    font-weight: 900;
+    text-align :center;
+    font-size: 30px;
+    padding-top :50px;
+    padding-bottom: 50px;
+}
+
+
+.photoabout-me
+{
+	color :#474747;
+	font-family : "Playfair Display";
+	font-weight: 100;
+	font-size: 17px;
+	text-align : justify;
+	padding-bottom: 30px;
+}
+
+.booknow1
+{
+	color : green;
+	font-family : "Playfair Display";
+	font-weight: 600;
+	font-size: 20px;
+	padding-top : 30px;
+}
+
+.booknow
+{
+	color : black;
+	font-family : "Playfair Display";
+	font-weight: 900;
+	font-size: 60px;
+	padding-top :1px;
+	padding-bottom:15px;
+}
+
+.photo-style
+{
+	color: black;
+    padding-top:35px;
+
+}
+
+.photo-style  ul li
+{
+	color: black;
+    font-size: 17px;
+    font-weight: 20em;
+    list-style-type: none;
+}
+
+.contact-info
+{
+
+	color :black;
+	font-family : "Playfair Display";
+	font-weight: 900;
+	font-size: 40px;
+	padding-top :30px;
+	padding-bottom:15px;
+}
+
+.contact-touch
+{
+		
+	color :black;
+	font-family : "Playfair Display";
+	font-weight: 900;
+	font-size: 30px;
+	padding-left: 200px;
+	padding-top :50px;
+	padding-bottom: 25px;
+}
+
+.contact-place
+{
+		
+	color :black;
+	font-family : "Playfair Display";
+	font-weight: 300;
+	font-size: 20px;
+	padding-left: 150px;
+	padding-bottom: 15px;
+}
+
+.contact-phone
+{
+
+	color :black;
+	font-family : "Playfair Display";
+	font-weight: 300;
+	font-size: 20px;
+	padding-left: 150px;
+		padding-bottom: 15px;
+
+}
+.contact-email
+{
+
+	color :black;
+	font-family : "Playfair Display";
+	font-weight: 300;
+	font-size: 20px;
+	padding-left: 150px;
+	padding-bottom: 75px;
+}
+footer
+{
+    width:100%;
+	padding: 25px;
+	margin-top: 10px;
+	background-color: black;
+	color:white;
+	text-align: center;
+}

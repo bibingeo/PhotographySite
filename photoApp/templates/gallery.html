@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block about %}
+
+<div class="container">
+    <div class="row">
+			<div class="col-md-12">
+
+            <div class="photoabout" >
+<!--                Photograph What It Feels Like, Not What It Looks Like-->
+                IT'S ALL ABOUT MOMENTS.
+            </div>
+            <div class="photoabout-me">
+              Moments captured spontaneously which will be a valuable memory that is treasured forever. We appeal to people who are after natural images and don't want to be placed in awkward cheesy poses. The result is stylish, real images with people looking their best. People always ask why our images look so different from any others. It takes many years of working with natural light and being sensitive to what's happening on the other side of the camera to achieve consistently beautiful images time after time.
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+	<div class="row">
+	   <div class="col-md-6">
+            <img src={% static "images/joh1.jpg" %} class="img-responsive">
+        </div>
+        <div class="col-md-6">
+            <img src={% static "images/joh.jpg" %} class="img-responsive">
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
